@@ -7,9 +7,7 @@
     --suave:#C02700;
     --geral: #a02100;
     --lower: #801A00;
-}
-
-.dark-mode:root {
+}  .dark-mode:root {
     --bg-color: #202020;
     --letter: #fff;
     --hard: #1F42F1;
@@ -40,13 +38,14 @@ main {
     gap: 30px;
     flex-direction: column;
 }
- nav {
+
+nav {
     display: flex;
     gap: 20px;
     flex-direction: column;
  }
 
- #foto-texto {
+#foto-texto {
     display: flex;
     gap: 7px;
     flex-direction: column;
@@ -64,11 +63,12 @@ img {
     width: 170px;
     margin: 10px auto 0 auto;
 }
-#meu-nome  {
+
+#meu-nome {
     text-align: center;
 }
 
-.link{
+.link {
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -78,19 +78,19 @@ img {
     width: 500px;
     padding: 10px;
     align-items: center;
+
 .dark-mode & {
     border: 1px solid var(--lower);
     }
 }
 .link:hover {
     transition: 0.5s;
-    transform: scale(1.1);
+    transform: scale(1.04);
     color: black;
     background: var(--suave);
     box-shadow: 0 0 10px var(--suave), 
                 0 0 40px var(--suave),
                 0 0 10px var(--suave);
-    font-size: 19px;
 .dark-mode & {
     background: var(--lower);
     box-shadow: 0 0 10px var(--lower), 
@@ -110,25 +110,23 @@ img {
 }
 
 @media (max-width: 1200px){
-
 *{
     margin: 0;
     padding: 0;
 }
 
-.link{
+.link {
     width: 200px;
     border-radius: 10px;
 }
 
-img{
+img {
     width: 120px;
 }
-#meu-nome{
+
+#meu-nome {
     font-size: 15px;
-
 }
-
 }
 
 
